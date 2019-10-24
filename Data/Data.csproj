@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="sqlite" Version="3.13.0" />
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.111" />
+    <PackageReference Include="System.Data.SQLite.EF6" Version="1.0.111" />
+    <PackageReference Include="System.Data.SQLite.Linq" Version="1.0.111" />
+    <PackageReference Include="System.Data.SQLite.x86" Version="1.0.111" />
+  </ItemGroup>
+
+</Project>

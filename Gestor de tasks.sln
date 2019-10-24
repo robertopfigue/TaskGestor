@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestor de tasks", "Gestor de tasks\Gestor de tasks.csproj", "{C05CB254-0E91-49E2-8C83-039318B44C41}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "Gestor de tasks\GUI.csproj", "{C05CB254-0E91-49E2-8C83-039318B44C41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{F103F594-3C8E-4B9E-A597-196BDBE16AC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C05CB254-0E91-49E2-8C83-039318B44C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C05CB254-0E91-49E2-8C83-039318B44C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C05CB254-0E91-49E2-8C83-039318B44C41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F103F594-3C8E-4B9E-A597-196BDBE16AC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F103F594-3C8E-4B9E-A597-196BDBE16AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F103F594-3C8E-4B9E-A597-196BDBE16AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F103F594-3C8E-4B9E-A597-196BDBE16AC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
